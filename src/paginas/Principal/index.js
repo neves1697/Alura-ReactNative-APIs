@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Text, View, Image, TouchableOpacity, TextInput, Alert, ScrollView } from 'react-native';
 import estilos from './estilos';
 import { buscaUsuario } from '../../services/requisicoes/usuarios';
-//import { buscaUsuario } from '../../servicos/requisicoes/usuarios';
+
+
 
 export default function Principal({ navigation }) {
     const [nomeUsuario, setNomeUsuario] = useState('');
