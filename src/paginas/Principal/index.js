@@ -4,7 +4,6 @@ import estilos from './estilos';
 import { buscaUsuario } from '../../services/requisicoes/usuarios';
 
 
-
 export default function Principal({ navigation }) {
     const [nomeUsuario, setNomeUsuario] = useState('');
     const [usuario, setUsuario] = useState({});
