@@ -12,11 +12,15 @@ export default function CriarRepositorio({ route, navigation }) {
                 placeholder="Nome do repositório"
                 autoCapitalize="none"
                 style={estilos.entrada}
+                value={nome}
+                onChangeText={setNome}
             />
             <TextInput
                 placeholder="Data de criação"
                 autoCapitalize="none"
                 style={estilos.entrada}
+                value={data}
+                onChangeText={setData}
             />
             <TouchableOpacity style={estilos.botao}>
                 <Text style={estilos.textoBotao}>
